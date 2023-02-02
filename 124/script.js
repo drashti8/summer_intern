@@ -35,9 +35,9 @@ function show(data) {
 		`<div width="400" height="300">
 		<!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 		<div class="card-body">
-		  
+		
 		</div>
-	    </div>
+		</div>
 		`;
 	
 	// Loop to access all rows
@@ -62,6 +62,8 @@ function show(data) {
 </div>
 </div>`;
 	}
+
+	// for refrence of the type of data in the api
 	//"data":[{"author":"Ankush Verma",
 	// "content":"During her Budget 2023 speech, Finance Minister Nirmala Sitharaman said that the government will set up 100 labs for 5G applications in engineering institutes. She further said that the recently launched National Green Hydrogen Mission with an outlay of \u20b919,700 crore will facilitate the transition of the economy to low carbon intensity and reduce dependence on fossil fuel imports.",
 	// "date":"01 Feb 2023,Wednesday",
@@ -74,7 +76,7 @@ function show(data) {
 	// Setting innerHTML as tab variable
 	document.getElementById("employees").innerHTML = tab;
 }
-function carddis(){
-	console.log(data.author);
-	document.getElementById("card_title").innerHTML= data.data.author ;
-}
+// function carddis(){
+// 	console.log(data.author);
+// 	document.getElementById("card_title").innerHTML= data.data.author ;
+// }
